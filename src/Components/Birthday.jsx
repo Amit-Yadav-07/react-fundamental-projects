@@ -35,7 +35,7 @@ let Birthday = () => {
                                 <h2>{name}</h2>
                                 <h5>{DOB} Years</h5>
                             </div>
-                            <button style={{ border: 'none', padding: '3px 6px', backgroundColor: 'red', fontSize: '1rem', cursor: 'pointer' }} onClick={() => SingleBtnHandler(id)}>remove</button>
+                            <button style={{ border: 'none', padding: '3px 6px', backgroundColor: 'rgb(231, 72, 72)', fontSize: '1rem', cursor: 'pointer', color: '#fff' }} onClick={() => SingleBtnHandler(id)}>remove</button>
                         </article>
                     )
                 })}
