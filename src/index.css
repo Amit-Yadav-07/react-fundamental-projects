@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  color: #242424;
+  background-color: whitesmoke;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.Container {
+  box-shadow: 0px 0px 10px 0px #242424;
+  height: auto;
+  width: 90%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.Container h1 {
+  padding-top: 2rem;
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .Container {
+    width: 50%;
+  }
+}
+
+.card-container {
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.img {
+  height: 5rem;
+  border: 2px solid #fff;
+  width: 5rem;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 0px #242424;
+}
+
+.img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card-details {
+  height: 5rem;
+  width: 50%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-details h2 {
+  letter-spacing: 2px;
+}
+
+.card-details h5 {
+  color: gray;
+  font-size: 0.9rem;
+  /* letter-spacing: 3px; */
+}
+
+.btn {
+  margin: 2rem auto;
+  padding: 6px 10px;
+  background-color: rgb(231, 72, 72);
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 80%;
+}
