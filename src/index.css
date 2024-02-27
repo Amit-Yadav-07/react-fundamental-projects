@@ -38,7 +38,7 @@
 }
 
 .card-container {
-  width: 90%;
+  width: 100%;
   margin: auto;
   margin-top: 2rem;
   height: 6rem;
@@ -73,7 +73,9 @@
 }
 
 .card-details h2 {
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+  color: #000;
 }
 
 .card-details h5 {
